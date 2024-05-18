@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anupam Ghimire</title>
+  <script>
+    function prank() {
+      document.getElementById("message").innerHTML = "<h1>Don't signup at unknown wesite</h1>";
+    }
+  </script>
+</head>
+<body>
+  <h1>Hello, I am Anupam Ghimire</h1>
+  <p>I am a very good person. Send me some mails at:</p>
+  <p>anupam.great2069@gmail.com</p>
+
+  <h2>Signup</h2>
+  <form onsubmit="prank(); return false;">  <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <button type="submit">Signup</button>
+  </form>
+
+  <p id="message"></p>
+</body>
+</html>
